@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-const WhereToBuy = () => {
-  return <div>WhereToBuy</div>;
-};
+// const WhereToBuy = () => {
+//   return <div>WhereToBuy</div>;
+// };
 
-export default WhereToBuy;
+// export default WhereToBuy;

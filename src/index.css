@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
+/* @layer utilities {
   .img-shadow {
     filter: drop-shadow(40px 50px 25px #0f1115);
   }
@@ -18,4 +18,4 @@
   .primary-btn {
     @apply bg-primary text-white px-4 py-2 rounded-md hover:bg-primaryDark duration-200;
   }
-}
+} */

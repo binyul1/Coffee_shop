@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-const AppBanner = () => {
-  return <div>AppBanner</div>;
-};
+// const AppBanner = () => {
+//   return <div>AppBanner</div>;
+// };
 
-export default AppBanner;
+// export default AppBanner;
