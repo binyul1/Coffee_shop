@@ -1,7 +1,14 @@
-// import React from "react";
+// eslint-disable-next-line no-unused-vars
+import React from "react";
 
-// const Navbar = () => {
-//   return <div>Navbar</div>;
-// };
+const Navbar = () => {
+  return( 
+  <nav className="absolute top-0">
+    <div className="container">
+        <div></div>
+    </div>
+  </nav>
+  );
+};
 
-// export default Navbar;
+export default Navbar;
