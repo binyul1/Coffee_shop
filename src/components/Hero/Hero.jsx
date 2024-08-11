@@ -26,25 +26,27 @@ const Hero = () => {
               <motion.h1
                 initial={{ opacity: 0, y: -100 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ 
+                transition={{
                   type: "spring",
                   stiffness: 100,
                   damping: 10,
                   delay: 1,
-                 }}
-               className="text-7xl font-bold leading-tight ml-14">
+                }}
+                className="text-7xl font-bold leading-tight ml-14"
+              >
                 Black thumbler
               </motion.h1>
               <motion.div
-               initial={{ opacity: 0, y: 100 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ 
-                 type: "spring",
-                 stiffness: 100,
-                 damping: 10,
-                 delay: 1.2,
-                }}               
-                className="relative">
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 10,
+                  delay: 1.2,
+                }}
+                className="relative"
+              >
                 <div className="relative z-10 space-y-4">
                   <h1 className="text-2xl">Black Lifestyle Lover</h1>
                   <h1 className="text-sm opacity-55">
@@ -58,16 +60,32 @@ const Hero = () => {
             </div>
             {/* Hero Image section */}
             <div className="relative ">
-              <img
+              <motion.img
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 10,
+                  delay: 0.4,
+                }}
                 src={BlackCoffee}
                 alt=""
                 className="relative z-40 h-[400px] md:h-[700px]  image-shadow"
               />
               {/* orange ring circle */}
-              <div
+              <motion.div
+                initial={{ opacity: 0, scale: 0.5 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 10,
+                  delay: 0.4,
+                }}
                 className="h-[180px] w-[180px] absolute top-24 -right-20
                 border-primary border-[20px] rounded-full z-10"
-              ></div>
+              ></motion.div>
               {/* big text section */}
               <div className="absolute -top-20 left-[200px] z-[1]">
                 <h1 className="text-[140px] scale-150 font-bold text-darkGray/40 leading-none">
@@ -81,16 +99,17 @@ const Hero = () => {
                 Black thumbler
               </h1>
               <div className="relative">
-                <motion.div 
-                initial={{ opacity: 0, y: 100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ 
-                  type: "spring",
-                  stiffness: 100,
-                  damping: 10,
-                  delay: 1.2,
-                 }} 
-                className="relative z-10 space-y-4">
+                <motion.div
+                  initial={{ opacity: 0, y: 100 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 100,
+                    damping: 10,
+                    delay: 1.2,
+                  }}
+                  className="relative z-10 space-y-4"
+                >
                   <h1 className="text-2xl">Black Lifestyle Lover</h1>
                   <h1 className="text-sm opacity-55">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
